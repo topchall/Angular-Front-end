@@ -1,0 +1,26 @@
+
+<mat-card>
+  <mat-card-title>{{showCompleteName()}}</mat-card-title>
+  <img mat-card-image src="../../../assets/avatar.jpg" alt="">
+  <mat-card-content >
+    <mat-grid-list cols="2" rowHeight="80px">
+      <mat-grid-tile>
+        <mat-card-subtitle>Email</mat-card-subtitle>
+        <div>{{getEmail()}}</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card-subtitle>Brand</mat-card-subtitle>
+        <div>{{getBrand()}}</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card-subtitle>Area</mat-card-subtitle>
+        <div>{{getArea()}}</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card-subtitle>Gender</mat-card-subtitle>
+        <div>{{getGender()}}</div>
+      </mat-grid-tile>
+    </mat-grid-list>
+
+  </mat-card-content>
+</mat-card>

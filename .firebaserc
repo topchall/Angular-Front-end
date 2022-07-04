@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "techservice-848a1": {
+      "hosting": {
+        "OS": [
+          "techservice-848a1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "techservice-848a1"
+  }
+}

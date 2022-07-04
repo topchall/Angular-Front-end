@@ -1,0 +1,41 @@
+<mat-toolbar class="purple">
+  <span>TechService</span>
+  <a mat-button [routerLink]="'/home'">Home</a>
+  <a mat-button [routerLink]="'/technicians'">Profile</a>
+  <a mat-button [routerLink]="'/cases'">Cases</a>
+  <a mat-button [routerLink]="'/help'">Help</a>
+  <a *ngIf="getCurrentUserEmail() === null" (click)="hide = false" mat-button [routerLink]="'/sign-in'">Sign in</a>
+  <a *ngIf="getCurrentUserEmail() === null" mat-button >
+    <div (click)="hide = !hide" *ngIf="!hide"> Sign up</div>
+  </a>
+<!--  Colocar dialogos para el registro-->
+  <div>
+    <a *ngIf="hide" mat-button [routerLink]="'/sign-up'" (click)="type='technician'">Sign up Technician</a>
+    <a *ngIf="hide" mat-button [routerLink]="'/sign-up-business'" (click)="type='business'">Sign up Business</a>
+  </div>
+  <div *ngIf="getCurrentUserEmail()">
+    <a mat-button (click)="type==='technician'?goToProfile():type==='business'?goToProfileBusiness():''">{{getCurrentUserEmail() }}</a>
+    <a mat-button (click)="signOut()">Sign-Out</a>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
+<footer>
+  <div class="footer-content">
+    <h1>TechService</h1>
+    <p>Copyright &copy; 2022 TechService</p>
+    <ul class="social-links box">
+      <li>
+        <a href=""><mat-icon>facebook</mat-icon></a>
+      </li>
+      <li>
+        <a href=""><mat-icon>whatsapp</mat-icon></a>
+      </li>
+      <li>
+        <a href=""><mat-icon>mail</mat-icon></a>
+      </li>
+      <li>
+        <a href=""><mat-icon>appstore</mat-icon></a>
+      </li>
+    </ul>
+  </div>
+</footer>

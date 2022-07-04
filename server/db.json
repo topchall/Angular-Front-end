@@ -1,0 +1,161 @@
+{
+  "technicians": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 25,
+      "address": "Nowhere"
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "age": 34,
+      "address": "Nowhere"
+    },
+    {
+      "id": 3,
+      "name": "William Norton",
+      "age": 30,
+      "address": "One Place"
+    },
+    {
+      "id": 4,
+      "name": "Mike Motown",
+      "age": 38,
+      "address": "The Next Place"
+    },
+    {
+      "id": 5,
+      "name": "Mike Zambia",
+      "age": 22,
+      "address": "The Final Place"
+    },
+    {
+      "id": 6,
+      "name": "David Lucani",
+      "age": 32,
+      "address": "The Last Frontier"
+    }
+  ],
+  "techniciansSkills": [
+    {
+      "id": 1,
+      "name": "Hardware"
+    },
+    {
+      "id": 2,
+      "name": "Software"
+    },
+    {
+      "id": 3,
+      "name": "Appliances"
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "AAAA Company",
+      "address": "Nowhere",
+      "date": "01/05/2021",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+      "status": "In Progress"
+    },
+    {
+      "id": 2,
+      "name": "BBBB Company",
+      "address": "Nowhere",
+      "date": "23/11/2020",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+      "status": "Complete"
+    },
+    {
+      "id": 3,
+      "name": "CCCC Company",
+      "address": "One Place",
+      "date": "16/11/2020",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+      "status": "Complete"
+    },
+    {
+      "id": 4,
+      "name": "DDDD Company",
+      "address": "The Next Place",
+      "date": "05/11/2020",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+      "status": "Complete"
+    },
+    {
+      "id": 5,
+      "name": "EEEE Company",
+      "address": "The Final Place",
+      "date": "20/10/2020",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+      "status": "Complete"
+    },
+    {
+      "id": 6,
+      "name": "FFFF Company",
+      "address": "The Last Frontier",
+      "date": "29/09/2020",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+      "status": "Complete"
+    }
+  ],
+  "users": [
+    {
+      "email": "u202019108@upc.edu.pe",
+      "password": "$2a$10$QqfbOSljT8stksle1d4oreuxixkpgEDpa2hIWqnl8AjJ/6QMGrf/i",
+      "gender": "male",
+      "firstName": "Luis",
+      "lastName": "Li",
+      "phone": 966484081,
+      "brand": "Samsung",
+      "area": "gafitero",
+      "id": 1
+    },
+    {
+      "email": "lrlitang18@gmail.com",
+      "password": "$2a$10$kuispAbWZn6meyQlUzUu1.CJxdDOHssYK2j83hZeE1/SC3Hh6.13O",
+      "gender": "male",
+      "firstName": "Luis",
+      "lastName": "Li",
+      "phone": 966484081,
+      "brand": "123",
+      "area": "123",
+      "id": 2
+    },
+    {
+      "email": "miguel@gmail.com",
+      "password": "$2a$10$jGcJMuvK87BgNkkhvMYYMOqqbV2xJxmyqzshjKSi4qlUMtwf2l6gq",
+      "gender": "male",
+      "firstName": "Luis",
+      "lastName": "Li",
+      "phone": 966484081,
+      "brand": "123",
+      "area": "123",
+      "id": 3
+    },
+    {
+      "email": "hola@gmail.com",
+      "password": "$2a$10$4xpYWpRZVj2IjPokJdFVKulN.dcrwDI/7zhsx7cuEUedd1YQRTAhW",
+      "gender": "male",
+      "firstName": "Luis",
+      "lastName": "Li",
+      "phone": 966484081,
+      "brand": "123",
+      "area": "123",
+      "id": 4
+    },
+    {
+      "email": "jorge@gmail.com",
+      "password": "$2a$10$m5viQikiTwdc1Qk7VD7zT.dMmlxDrRGWvETAspWjIq3I9H46aPsZ2",
+      "gender": "male",
+      "firstName": "Luis",
+      "lastName": "Li",
+      "phone": 966484081,
+      "brand": "123",
+      "area": "123",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+
+<mat-card>
+  <mat-card-title>{{getName()}}</mat-card-title>
+  <img mat-card-image src="../../../assets/avatar.jpg" alt="">
+  <mat-card-content >
+    <mat-grid-list cols="2" rowHeight="80px">
+      <mat-grid-tile>
+        <mat-card-subtitle>Email</mat-card-subtitle>
+        <div>{{getEmail()}}</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card-subtitle>Subscription</mat-card-subtitle>
+        <div>{{getSubscription()}}</div>
+      </mat-grid-tile>
+    </mat-grid-list>
+
+  </mat-card-content>
+</mat-card>

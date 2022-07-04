@@ -1,0 +1,21 @@
+.material-button {
+  text-transform: uppercase;
+}
+.sign-up{
+
+  width: 600px;
+  border-radius: 10px;
+  margin: auto;
+}
+mat-card-title{
+  padding: 30px 0px;
+  text-align: center;
+}
+mat-card-actions{
+  margin-left: 60px;
+}
+.mat-card{
+  width: 600px;
+  box-shadow: 0px 14px 71px -3px rgba(0,0,0,0.1);
+  margin: 30px auto auto;
+}
